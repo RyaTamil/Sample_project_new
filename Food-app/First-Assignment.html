@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Food App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <style>
+        body {
+            background-color: black;
+  font-family: "Trirong", serif;
+
+        }
+
+        p,
+        ol,
+        a {
+            color: white
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #header {
+            background-color: #223577;
+            padding: 18px;
+            color: white;
+        }
+
+        .headerlink {
+            text-decoration: none;
+            padding: 8px;
+            color: #f4f5f8;
+        }
+
+        .headerlink:hover {
+            background-color: white;
+            color: blue;
+        }
+
+        .header_class {
+            display: inline;
+            padding: 35px;
+            text-transform: uppercase;
+        }
+
+        #heading {
+            color: royalblue;
+            border-width: 2px;  
+            font-size: 2.5em;
+
+        }
+
+        .headspan {
+            color: white;
+        }
+
+        .bookmark {
+            text-decoration: none;
+        }
+
+
+        .food {
+            text-align: center;
+        }
+
+        .food_name1 {
+            margin-bottom: 5px;
+            font-size: 3.5em;
+            color: #0767a0;
+        }
+
+        .food_name2 {
+            margin-bottom: 6px;
+            font-size: 4em;
+            color: #144d86;
+        }
+
+        .food_name3 {
+            margin-bottom: 5px;
+            font-size: 3em;
+            color: #933a26;
+        }
+
+        .food_name4 {
+            margin-bottom: 5px;
+            font-size: 3.5em;
+            color: #8e0100;
+        }
+
+        .food_name5 {
+            margin-bottom: 3px;
+            font-size: 3.5em;
+            color: #f3e4e5;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <ul id="header">
+        <li class="header_class"><a class="headerlink" href="">FOOD</a></li>
+        <li class="header_class"><a class="headerlink" href="">ORDER</a></li>
+        <li class="header_class"><a class="headerlink" href="">RATING</a></li>
+    </ul>
+
+    <!-- Heading  -->
+    <h1 id="heading">Top 5 <span class="headspan"> Favourite </span>Foods</h1>
+
+
+    <!-- Bookmark name -->
+
+    <ol>
+        <li><a class="bookmark" href="#Pizza">Pizza</a></li>
+        <li><a class="bookmark" href="#Cake"> Cake</a></li>
+        <li><a class="bookmark" href="#Burger">Burger</a></li>
+        <li><a class="bookmark" href="#Briyani">Briyani</a></li>
+        <li><a class="bookmark" href="#Noodles">Noodles</a></li>
+    </ol>
+
+    <!-- Content with details -->
+
+
+    <section id="Pizza" class="food">
+        <h1 class="food_name1">Medium Pizza</h1>
+        <img src="images/pizza.jpg" alt="Pizza" height="450" width="600   ">
+     
+    </section>
+
+
+    <section id="Cake" class="food">
+        <h1 class="food_name2">Chocolate Cake</h1>
+        <img src="images/cake.jpg" alt="Chicken" height="450" width="600">
+    
+    </section>
+
+
+    <section id="Burger" class="food">
+        <h1 class="food_name3">Burger</h1>
+        <img src="images/burger.jpg" alt="Burger" height="500" width="650">
+    </section>
+
+
+    <section id="Briyani" class="food">
+        <h1 class="food_name4">Spice Briyani</h1>
+        <img src="images/briynai.jpg" alt="Briyani" height="500" width="650">
+      
+    </section>
+
+
+    <section id="Noodles" class="food">
+        <h1 class="food_name5">Noodles</h1>
+        <img src="images/noodles.jpg" alt="Noodles" height="500" width="660">
+       
+    </section>
+
+
+
+</body>
+
+</html>
